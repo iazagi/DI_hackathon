@@ -3,42 +3,43 @@ body {
   text-align: center;
   margin-top: 30px;
 }
-
+/* panel sizing */
 .panel {
   width: 200px;
   height: 200px;
   display: inline-block;
   cursor: pointer;
 }
-
+/* mouse hover on panels */
 .panel:hover {
-  /* border: 1px solid red; */
   box-shadow: inset 0px 0px 0px 3px cyan;
   box-sizing: border-box;
 }
-
+/*making the panel to look like pizza slic*/
 .bottom-right-panel {
   border-bottom-right-radius: 100%;
   background-color: red;
 }
-
+/*making the panel to look like pizza slic*/
 .bottom-left-panel {
   border-bottom-left-radius: 100%;
   background-color: blue;
 }
+/*making the panel to look like pizza slic*/
 .top-right-panel {
   border-top-right-radius: 100%;
   background-color: green;
 }
+/*making the panel to look like pizza slic*/
 .top-left-panel {
   border-top-left-radius: 100%;
   background-color: yellow;
 }
-
+/**when the panel is "active" it will become white*/
 .active {
   background-color: white;
 }
-
+/* center circel */
 .center {
   display: inline-block;
   position: relative;
@@ -46,9 +47,18 @@ body {
   height: 200px;
   border-radius: 100%;
   background-color: black;
-  top: -310px;
- }
- h1{
-  	color: white;
-  	position: center;
-  }
+  bottom: 300px;
+  align-items: center;
+
+}
+h1{
+  color: white;
+  font-size: 4em;
+}
+p{
+  color: white;
+  font-size: 2em;
+  position: relative;
+  bottom: 200px;
+
+}
